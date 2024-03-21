@@ -1,0 +1,9 @@
+version: "2.5"
+services:
+  ubuntuimage:
+    container_name: ubuntu
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000

@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# General Instructions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First of all, thank you for taking the time to look at my project. 
 
-## Available Scripts
+Here you will find 2 prints, one from my Desktop and another one for a responsive Mobile version in the browser.
 
-In the project directory, you can run:
+Upfront, I know that keys are supposed to be in a .env file. But, since this is a closed test, I've left them in the open.
 
-### `npm start`
+# To run the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In order to use the program, you just need to have docker installed on your machine.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If you don't have it, go to https://www.docker.com/ and download the one for your operational system.
 
-### `npm test`
+After that, start up Docker. Then go to the root of the project, and type ```docker compose up``` and the project should start after a few moments installing everything it needs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Then you just need to type ```www.localhost:3000``` in your browser to access it.
 
-### `npm run build`
+##Alternative path
+If you don't want to use Docker, you just need node installed on your machine. Mine is version 18.17.1. Go to https://nodejs.org/en and download the LTS version, then, install it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+After that, just go to the root of the project and type ```npm install```. After installing, type ```npm start``` and it will spin up the project that will, again, be accessible via ```www.localhost:3000``` in your browser.
+# innoscripta
